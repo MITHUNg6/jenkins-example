@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('---clean---'){
 			steps {
-				tool name: 'maven3.3.9, type: 'maven'
+				tool name: 'maven3.3.9', type: 'maven'
 				sh "mvn clean"
 			}
 		}
